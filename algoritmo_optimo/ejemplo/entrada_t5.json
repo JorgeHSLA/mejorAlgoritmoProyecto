@@ -1,0 +1,155 @@
+{
+ "dias": 5,
+ "franjas_por_dia": 6,
+ "pesos": {
+  "prio": 10.0,
+  "emp": 2.0,
+  "cerc": 2.0,
+  "libre": 1.0,
+  "amigos": 3.0
+ },
+ "edificios": [
+  {
+   "id": 1,
+   "nombre": "A"
+  }
+ ],
+ "tiempos": {
+  "1": {}
+ },
+ "cursos": [
+  {
+   "id": "c",
+   "nombre": "c",
+   "creditos": 3
+  },
+  {
+   "id": "d",
+   "nombre": "d",
+   "creditos": 3
+  },
+  {
+   "id": "e",
+   "nombre": "e",
+   "creditos": 3
+  }
+ ],
+ "profesores": [
+  "P1",
+  "P2"
+ ],
+ "clases": [
+  {
+   "id": "g1",
+   "curso": "c",
+   "profesor": "P1",
+   "edificio": 1
+  },
+  {
+   "id": "g2",
+   "curso": "c",
+   "profesor": "P2",
+   "edificio": 1
+  },
+  {
+   "id": "h",
+   "curso": "d",
+   "profesor": "P2",
+   "edificio": 1
+  },
+  {
+   "id": "k",
+   "curso": "e",
+   "profesor": "P2",
+   "edificio": 1
+  }
+ ],
+ "horario": [
+  {
+   "dia": 0,
+   "bloque": 0,
+   "clases": [
+    "g1",
+    "h"
+   ]
+  },
+  {
+   "dia": 0,
+   "bloque": 1,
+   "clases": [
+    "g2"
+   ]
+  },
+  {
+   "dia": 0,
+   "bloque": 3,
+   "clases": [
+    "k"
+   ]
+  },
+  {
+   "dia": 2,
+   "bloque": 0,
+   "clases": [
+    "g1",
+    "h"
+   ]
+  },
+  {
+   "dia": 2,
+   "bloque": 1,
+   "clases": [
+    "g2"
+   ]
+  },
+  {
+   "dia": 2,
+   "bloque": 3,
+   "clases": [
+    "k"
+   ]
+  }
+ ],
+ "estudiantes": [
+  {
+   "id": "s1",
+   "max_creditos": 6,
+   "deseos": [
+    {
+     "curso": "c",
+     "prioridad": 5
+    },
+    {
+     "curso": "e",
+     "prioridad": 5
+    }
+   ],
+   "empatia": {
+    "P1": 5
+   },
+   "amigos": [
+    "s2"
+   ],
+   "franjas_libres": []
+  },
+  {
+   "id": "s2",
+   "max_creditos": 6,
+   "deseos": [
+    {
+     "curso": "c",
+     "prioridad": 5
+    },
+    {
+     "curso": "d",
+     "prioridad": 4
+    }
+   ],
+   "empatia": {},
+   "amigos": [
+    "s1"
+   ],
+   "franjas_libres": []
+  }
+ ]
+}

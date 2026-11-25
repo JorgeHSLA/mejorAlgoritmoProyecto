@@ -1,0 +1,195 @@
+{
+  "algoritmo": "pd-global",
+  "clases": [
+    {
+      "clase": "g1",
+      "curso": "c",
+      "profesor": "P1",
+      "edificio": "A",
+      "horario": [
+        {
+          "dia": 0,
+          "bloque": 0,
+          "cuando": "lunes 07:00-09:00"
+        },
+        {
+          "dia": 2,
+          "bloque": 0,
+          "cuando": "miércoles 07:00-09:00"
+        }
+      ],
+      "estudiantes": []
+    },
+    {
+      "clase": "g2",
+      "curso": "c",
+      "profesor": "P2",
+      "edificio": "A",
+      "horario": [
+        {
+          "dia": 0,
+          "bloque": 1,
+          "cuando": "lunes 09:00-11:00"
+        },
+        {
+          "dia": 2,
+          "bloque": 1,
+          "cuando": "miércoles 09:00-11:00"
+        }
+      ],
+      "estudiantes": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "clase": "h",
+      "curso": "d",
+      "profesor": "P2",
+      "edificio": "A",
+      "horario": [
+        {
+          "dia": 0,
+          "bloque": 0,
+          "cuando": "lunes 07:00-09:00"
+        },
+        {
+          "dia": 2,
+          "bloque": 0,
+          "cuando": "miércoles 07:00-09:00"
+        }
+      ],
+      "estudiantes": [
+        "s2"
+      ]
+    },
+    {
+      "clase": "k",
+      "curso": "e",
+      "profesor": "P2",
+      "edificio": "A",
+      "horario": [
+        {
+          "dia": 0,
+          "bloque": 3,
+          "cuando": "lunes 13:00-15:00"
+        },
+        {
+          "dia": 2,
+          "bloque": 3,
+          "cuando": "miércoles 13:00-15:00"
+        }
+      ],
+      "estudiantes": [
+        "s1"
+      ]
+    }
+  ],
+  "por_franja": [
+    {
+      "dia": 0,
+      "bloque": 0,
+      "cuando": "lunes 07:00-09:00",
+      "clases": [
+        {
+          "clase": "g1",
+          "estudiantes": []
+        },
+        {
+          "clase": "h",
+          "estudiantes": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "dia": 0,
+      "bloque": 1,
+      "cuando": "lunes 09:00-11:00",
+      "clases": [
+        {
+          "clase": "g2",
+          "estudiantes": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "dia": 0,
+      "bloque": 3,
+      "cuando": "lunes 13:00-15:00",
+      "clases": [
+        {
+          "clase": "k",
+          "estudiantes": [
+            "s1"
+          ]
+        }
+      ]
+    },
+    {
+      "dia": 2,
+      "bloque": 0,
+      "cuando": "miércoles 07:00-09:00",
+      "clases": [
+        {
+          "clase": "g1",
+          "estudiantes": []
+        },
+        {
+          "clase": "h",
+          "estudiantes": [
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "dia": 2,
+      "bloque": 1,
+      "cuando": "miércoles 09:00-11:00",
+      "clases": [
+        {
+          "clase": "g2",
+          "estudiantes": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    {
+      "dia": 2,
+      "bloque": 3,
+      "cuando": "miércoles 13:00-15:00",
+      "clases": [
+        {
+          "clase": "k",
+          "estudiantes": [
+            "s1"
+          ]
+        }
+      ]
+    }
+  ],
+  "asignacion": {
+    "s1": [
+      "g2",
+      "k"
+    ],
+    "s2": [
+      "g2",
+      "h"
+    ]
+  },
+  "puntaje": 44.0,
+  "violaciones": [],
+  "metricas": {
+    "tiempo_s": 0.000847,
+    "estados_en_memoria": 4,
+    "pct_prioritarios": 100.0
+  }
+}

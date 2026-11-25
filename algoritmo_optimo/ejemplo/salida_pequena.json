@@ -1,0 +1,342 @@
+{
+  "algoritmo": "pd-global",
+  "clases": [
+    {
+      "clase": "C01-1",
+      "curso": "C01",
+      "profesor": "P1",
+      "edificio": "Edificio 1",
+      "horario": [
+        {
+          "dia": 1,
+          "bloque": 3,
+          "cuando": "martes 13:00-15:00"
+        },
+        {
+          "dia": 4,
+          "bloque": 3,
+          "cuando": "viernes 13:00-15:00"
+        }
+      ],
+      "estudiantes": [
+        "S001",
+        "S002",
+        "S003",
+        "S005"
+      ]
+    },
+    {
+      "clase": "C01-2",
+      "curso": "C01",
+      "profesor": "P1",
+      "edificio": "Edificio 3",
+      "horario": [
+        {
+          "dia": 0,
+          "bloque": 1,
+          "cuando": "lunes 09:00-11:00"
+        },
+        {
+          "dia": 2,
+          "bloque": 1,
+          "cuando": "miércoles 09:00-11:00"
+        }
+      ],
+      "estudiantes": []
+    },
+    {
+      "clase": "C02-1",
+      "curso": "C02",
+      "profesor": "P3",
+      "edificio": "Edificio 3",
+      "horario": [
+        {
+          "dia": 1,
+          "bloque": 1,
+          "cuando": "martes 09:00-11:00"
+        },
+        {
+          "dia": 4,
+          "bloque": 1,
+          "cuando": "viernes 09:00-11:00"
+        }
+      ],
+      "estudiantes": []
+    },
+    {
+      "clase": "C02-2",
+      "curso": "C02",
+      "profesor": "P2",
+      "edificio": "Edificio 2",
+      "horario": [
+        {
+          "dia": 1,
+          "bloque": 3,
+          "cuando": "martes 13:00-15:00"
+        },
+        {
+          "dia": 4,
+          "bloque": 3,
+          "cuando": "viernes 13:00-15:00"
+        }
+      ],
+      "estudiantes": []
+    },
+    {
+      "clase": "C03-1",
+      "curso": "C03",
+      "profesor": "P3",
+      "edificio": "Edificio 2",
+      "horario": [
+        {
+          "dia": 0,
+          "bloque": 1,
+          "cuando": "lunes 09:00-11:00"
+        },
+        {
+          "dia": 2,
+          "bloque": 1,
+          "cuando": "miércoles 09:00-11:00"
+        }
+      ],
+      "estudiantes": [
+        "S002",
+        "S004"
+      ]
+    },
+    {
+      "clase": "C03-2",
+      "curso": "C03",
+      "profesor": "P2",
+      "edificio": "Edificio 2",
+      "horario": [
+        {
+          "dia": 2,
+          "bloque": 1,
+          "cuando": "miércoles 09:00-11:00"
+        },
+        {
+          "dia": 4,
+          "bloque": 1,
+          "cuando": "viernes 09:00-11:00"
+        }
+      ],
+      "estudiantes": []
+    },
+    {
+      "clase": "C04-1",
+      "curso": "C04",
+      "profesor": "P1",
+      "edificio": "Edificio 2",
+      "horario": [
+        {
+          "dia": 0,
+          "bloque": 3,
+          "cuando": "lunes 13:00-15:00"
+        },
+        {
+          "dia": 2,
+          "bloque": 3,
+          "cuando": "miércoles 13:00-15:00"
+        }
+      ],
+      "estudiantes": []
+    },
+    {
+      "clase": "C04-2",
+      "curso": "C04",
+      "profesor": "P2",
+      "edificio": "Edificio 1",
+      "horario": [
+        {
+          "dia": 2,
+          "bloque": 4,
+          "cuando": "miércoles 15:00-17:00"
+        },
+        {
+          "dia": 4,
+          "bloque": 4,
+          "cuando": "viernes 15:00-17:00"
+        }
+      ],
+      "estudiantes": []
+    }
+  ],
+  "por_franja": [
+    {
+      "dia": 0,
+      "bloque": 1,
+      "cuando": "lunes 09:00-11:00",
+      "clases": [
+        {
+          "clase": "C01-2",
+          "estudiantes": []
+        },
+        {
+          "clase": "C03-1",
+          "estudiantes": [
+            "S002",
+            "S004"
+          ]
+        }
+      ]
+    },
+    {
+      "dia": 0,
+      "bloque": 3,
+      "cuando": "lunes 13:00-15:00",
+      "clases": [
+        {
+          "clase": "C04-1",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 1,
+      "bloque": 1,
+      "cuando": "martes 09:00-11:00",
+      "clases": [
+        {
+          "clase": "C02-1",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 1,
+      "bloque": 3,
+      "cuando": "martes 13:00-15:00",
+      "clases": [
+        {
+          "clase": "C01-1",
+          "estudiantes": [
+            "S001",
+            "S002",
+            "S003",
+            "S005"
+          ]
+        },
+        {
+          "clase": "C02-2",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 2,
+      "bloque": 1,
+      "cuando": "miércoles 09:00-11:00",
+      "clases": [
+        {
+          "clase": "C01-2",
+          "estudiantes": []
+        },
+        {
+          "clase": "C03-1",
+          "estudiantes": [
+            "S002",
+            "S004"
+          ]
+        },
+        {
+          "clase": "C03-2",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 2,
+      "bloque": 3,
+      "cuando": "miércoles 13:00-15:00",
+      "clases": [
+        {
+          "clase": "C04-1",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 2,
+      "bloque": 4,
+      "cuando": "miércoles 15:00-17:00",
+      "clases": [
+        {
+          "clase": "C04-2",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 4,
+      "bloque": 1,
+      "cuando": "viernes 09:00-11:00",
+      "clases": [
+        {
+          "clase": "C02-1",
+          "estudiantes": []
+        },
+        {
+          "clase": "C03-2",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 4,
+      "bloque": 3,
+      "cuando": "viernes 13:00-15:00",
+      "clases": [
+        {
+          "clase": "C01-1",
+          "estudiantes": [
+            "S001",
+            "S002",
+            "S003",
+            "S005"
+          ]
+        },
+        {
+          "clase": "C02-2",
+          "estudiantes": []
+        }
+      ]
+    },
+    {
+      "dia": 4,
+      "bloque": 4,
+      "cuando": "viernes 15:00-17:00",
+      "clases": [
+        {
+          "clase": "C04-2",
+          "estudiantes": []
+        }
+      ]
+    }
+  ],
+  "asignacion": {
+    "S001": [
+      "C01-1"
+    ],
+    "S002": [
+      "C01-1",
+      "C03-1"
+    ],
+    "S003": [
+      "C01-1"
+    ],
+    "S004": [
+      "C03-1"
+    ],
+    "S005": [
+      "C01-1"
+    ]
+  },
+  "puntaje": 88.4,
+  "violaciones": [],
+  "metricas": {
+    "tiempo_s": 0.001658,
+    "estados_en_memoria": 65,
+    "pct_prioritarios": 80.0
+  }
+}

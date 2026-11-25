@@ -1,0 +1,361 @@
+{
+ "dias": 5,
+ "franjas_por_dia": 6,
+ "pesos": {
+  "prio": 10.0,
+  "emp": 2.0,
+  "cerc": 2.0,
+  "libre": 1.0,
+  "amigos": 3.0
+ },
+ "edificios": [
+  {
+   "id": 1,
+   "nombre": "Edificio 1"
+  },
+  {
+   "id": 2,
+   "nombre": "Edificio 2"
+  },
+  {
+   "id": 3,
+   "nombre": "Edificio 3"
+  }
+ ],
+ "tiempos": {
+  "1": {
+   "2": 7,
+   "3": 8
+  },
+  "2": {
+   "1": 7,
+   "3": 1
+  },
+  "3": {
+   "1": 8,
+   "2": 1
+  }
+ },
+ "cursos": [
+  {
+   "id": "C01",
+   "nombre": "Curso 01",
+   "creditos": 4
+  },
+  {
+   "id": "C02",
+   "nombre": "Curso 02",
+   "creditos": 3
+  },
+  {
+   "id": "C03",
+   "nombre": "Curso 03",
+   "creditos": 2
+  },
+  {
+   "id": "C04",
+   "nombre": "Curso 04",
+   "creditos": 2
+  }
+ ],
+ "profesores": [
+  "P1",
+  "P2",
+  "P3"
+ ],
+ "clases": [
+  {
+   "id": "C01-1",
+   "curso": "C01",
+   "profesor": "P1",
+   "edificio": 1
+  },
+  {
+   "id": "C01-2",
+   "curso": "C01",
+   "profesor": "P1",
+   "edificio": 3
+  },
+  {
+   "id": "C02-1",
+   "curso": "C02",
+   "profesor": "P3",
+   "edificio": 3
+  },
+  {
+   "id": "C02-2",
+   "curso": "C02",
+   "profesor": "P2",
+   "edificio": 2
+  },
+  {
+   "id": "C03-1",
+   "curso": "C03",
+   "profesor": "P3",
+   "edificio": 2
+  },
+  {
+   "id": "C03-2",
+   "curso": "C03",
+   "profesor": "P2",
+   "edificio": 2
+  },
+  {
+   "id": "C04-1",
+   "curso": "C04",
+   "profesor": "P1",
+   "edificio": 2
+  },
+  {
+   "id": "C04-2",
+   "curso": "C04",
+   "profesor": "P2",
+   "edificio": 1
+  }
+ ],
+ "horario": [
+  {
+   "dia": 0,
+   "bloque": 1,
+   "clases": [
+    "C01-2",
+    "C03-1"
+   ]
+  },
+  {
+   "dia": 0,
+   "bloque": 3,
+   "clases": [
+    "C04-1"
+   ]
+  },
+  {
+   "dia": 1,
+   "bloque": 1,
+   "clases": [
+    "C02-1"
+   ]
+  },
+  {
+   "dia": 1,
+   "bloque": 3,
+   "clases": [
+    "C01-1",
+    "C02-2"
+   ]
+  },
+  {
+   "dia": 2,
+   "bloque": 1,
+   "clases": [
+    "C01-2",
+    "C03-1",
+    "C03-2"
+   ]
+  },
+  {
+   "dia": 2,
+   "bloque": 3,
+   "clases": [
+    "C04-1"
+   ]
+  },
+  {
+   "dia": 2,
+   "bloque": 4,
+   "clases": [
+    "C04-2"
+   ]
+  },
+  {
+   "dia": 4,
+   "bloque": 1,
+   "clases": [
+    "C02-1",
+    "C03-2"
+   ]
+  },
+  {
+   "dia": 4,
+   "bloque": 3,
+   "clases": [
+    "C01-1",
+    "C02-2"
+   ]
+  },
+  {
+   "dia": 4,
+   "bloque": 4,
+   "clases": [
+    "C04-2"
+   ]
+  }
+ ],
+ "estudiantes": [
+  {
+   "id": "S001",
+   "max_creditos": 6,
+   "deseos": [
+    {
+     "curso": "C01",
+     "prioridad": 5
+    },
+    {
+     "curso": "C02",
+     "prioridad": 2
+    }
+   ],
+   "empatia": {
+    "P1": 5
+   },
+   "amigos": [
+    "S002",
+    "S005"
+   ],
+   "franjas_libres": [
+    {
+     "dia": 1,
+     "bloque": 1
+    }
+   ]
+  },
+  {
+   "id": "S002",
+   "max_creditos": 6,
+   "deseos": [
+    {
+     "curso": "C01",
+     "prioridad": 5
+    },
+    {
+     "curso": "C02",
+     "prioridad": 3
+    },
+    {
+     "curso": "C03",
+     "prioridad": 4
+    }
+   ],
+   "empatia": {
+    "P2": 3
+   },
+   "amigos": [
+    "S001",
+    "S003",
+    "S005"
+   ],
+   "franjas_libres": [
+    {
+     "dia": 0,
+     "bloque": 5
+    },
+    {
+     "dia": 1,
+     "bloque": 0
+    },
+    {
+     "dia": 3,
+     "bloque": 2
+    },
+    {
+     "dia": 4,
+     "bloque": 1
+    }
+   ]
+  },
+  {
+   "id": "S003",
+   "max_creditos": 5,
+   "deseos": [
+    {
+     "curso": "C01",
+     "prioridad": 3
+    },
+    {
+     "curso": "C02",
+     "prioridad": 1
+    },
+    {
+     "curso": "C04",
+     "prioridad": 5
+    }
+   ],
+   "empatia": {
+    "P1": 1
+   },
+   "amigos": [
+    "S002",
+    "S005"
+   ],
+   "franjas_libres": [
+    {
+     "dia": 2,
+     "bloque": 0
+    },
+    {
+     "dia": 2,
+     "bloque": 5
+    },
+    {
+     "dia": 3,
+     "bloque": 3
+    },
+    {
+     "dia": 3,
+     "bloque": 5
+    }
+   ]
+  },
+  {
+   "id": "S004",
+   "max_creditos": 4,
+   "deseos": [
+    {
+     "curso": "C02",
+     "prioridad": 2
+    },
+    {
+     "curso": "C03",
+     "prioridad": 5
+    }
+   ],
+   "empatia": {
+    "P3": 0
+   },
+   "amigos": [],
+   "franjas_libres": [
+    {
+     "dia": 2,
+     "bloque": 5
+    },
+    {
+     "dia": 4,
+     "bloque": 5
+    }
+   ]
+  },
+  {
+   "id": "S005",
+   "max_creditos": 5,
+   "deseos": [
+    {
+     "curso": "C01",
+     "prioridad": 4
+    },
+    {
+     "curso": "C03",
+     "prioridad": 2
+    }
+   ],
+   "empatia": {
+    "P3": 4
+   },
+   "amigos": [
+    "S001",
+    "S002",
+    "S003"
+   ],
+   "franjas_libres": []
+  }
+ ]
+}

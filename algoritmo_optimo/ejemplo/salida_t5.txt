@@ -1,0 +1,14 @@
+lunes 07:00-09:00
+  g1 (c, P1, A) -> (sin estudiantes)
+  h (d, P2, A) -> s2
+lunes 09:00-11:00
+  g2 (c, P2, A) -> s1, s2
+lunes 13:00-15:00
+  k (e, P2, A) -> s1
+miércoles 07:00-09:00
+  g1 (c, P1, A) -> (sin estudiantes)
+  h (d, P2, A) -> s2
+miércoles 09:00-11:00
+  g2 (c, P2, A) -> s1, s2
+miércoles 13:00-15:00
+  k (e, P2, A) -> s1
